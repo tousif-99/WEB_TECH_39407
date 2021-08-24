@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+.headdiv{
+    position: relative;
+    height: 8%;
+    
+}
+.bodydiv{
+    display: flex;
+    position: relative;
+    height: 84%;
+    /* background-color: rgb(255, 145, 0); */
+    
+    
+}
+.left
+{
+    position: relative;
+    width: 16%;
+    /* background-color: crimson;
+    justify-content: center;
+    align-items: center; */
+}
+.right{
+    background-image: url(../ImageFile/b.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    width: 84%;
+    /* background-color: rgb(243, 240, 240); */
+    /* justify-content: space-between; */
+}
+.right .right-left{
+    margin: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.right .right-left input{
+    font-size: 20px;
+}
+.right .right-left .bdetails{
+    height: 50%;
+    line-height: 30px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.right .right-left .cdetails{
+    height: 40%;
+    line-height: 30px;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.right .right-left .bdetails .r-l-left{
+    width: 60%;
+}
+.right .right-left .cdetails .r-l-left{
+    width: 50%;
+}
+.right .right-left .cdetails{
+    line-height: 30px;
+    padding: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.footerdiv{
+    position: relative;
+    height: 8%;
+    background-image: url(../ImageFile/b.jpg);
+    height: 8%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ep-btn{
+    border: 2px slategray;
+    height: 40px;
+    
+    width: 100px;
+    color: black;
+    background-color: rgb(212, 200, 200);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+.ep-btn:hover{
+    background-color: gray;
+}
+select{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}

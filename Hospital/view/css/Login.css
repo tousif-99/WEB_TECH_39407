@@ -1,0 +1,58 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(../ImageFile/b1.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.lmain{
+    position: relative;
+    top: 100px;
+    left: 30%;
+    width: 40%;
+    height: 90%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgb(228, 229, 233);
+    font-size: 30px;
+}
+.lmain fieldset input{
+    font-size: 25px;
+}
+.lmain fieldset{
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 30px;
+    padding-left: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.lmain fieldset .lbtn{
+    border: 2px slategray;
+    height: 30px;
+    width: 80px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+.lmain fieldset .lbtn:hover{
+    color: white;
+    background-color:gray;
+}
+.lmain h1{
+    text-align: center;
+}
+.lmain p{
+    margin-left: 20px;
+    padding-left: 30px;
+}
